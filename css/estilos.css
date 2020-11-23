@@ -10,6 +10,7 @@ body {
 
 header {
     width: 100%;
+    height: 500px;
     background-color: #f9fff2;
     background-image: url(../img/MaskGroup.png);
     background-position: center;
@@ -17,6 +18,7 @@ header {
 }
 
 .container {
+    padding-top: 25px;
     width: 100%;
     margin: auto;
     display: flex;
@@ -24,6 +26,9 @@ header {
     justify-content: space-evenly;
 }
 
+h1 {
+    font-size: 40px;
+}
 
 .logo img {
     width: 100px;
@@ -36,6 +41,7 @@ header {
     color: #adafab;
     text-decoration: none;
     font-weight: normal;
+    margin-right: 20px;
 }
 
 .menu button {
@@ -50,31 +56,121 @@ header {
     font-weight: bold;
 }
 
-.p .color-verde {
-    color: #75d2bf;
-
-}
-
 .texto-central {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 150px;
     justify-content: center;
     align-items: center;
+    margin: auto;
+}
+
+.texto-central span {
+    color: #75d2bf;
+
 }
 
 
 
 
 .main {
+    height: 100%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+
 
 }
 
-.Starter .Advanced .Pro-Plan {
+
+.Starter {
+    border: .5px solid #bbbbbb;
+    border-radius: 4px;
+    margin: auto;
+    display: flex;
     flex-direction: column;
-    font-size: 22px;
+    padding: 30px;
+
 }
 
-h2 {
-    font-size: 1px;
+.Advanced {
+    border: .5px solid #bbbbbb;
+    border-radius: 4px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #410ff8;
+    color: white;
+
+}
+
+.Pro-Plan {
+    border: .5px solid #bbbbbb;
+    border-radius: 4px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+
+
+
+h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 10px;
+    color: #bbbbbb;
+}
+
+.main button {
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    background-color: #410ff8;
+    padding: 12px 28px;
+    margin: 5%;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Advanced button {
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    background-color: #ffffff;
+    padding: 12px 28px;
+    margin: 5%;
+    color: #410ff8;
+    border-radius: 2px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+li {
+    list-style-image: url(../img/checkmark-onwhite.png);
+    font-size: 12px;
+    margin: 10px;
+}
+
+.Advanced li {
+    list-style-image: url(../img/checkmark-onpurple.png);
+    font-size: 12px;
+    margin: 10px;
+
 }
