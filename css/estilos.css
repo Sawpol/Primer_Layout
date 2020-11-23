@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #f9fff2;
+    background-image: url(../img/MaskGroup.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.logo img {
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.menu a {
+    font-size: 14px;
+    color: #adafab;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.menu button {
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    background-color: #410ff8;
+    padding: 12px 28px;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.p .color-verde {
+    color: #75d2bf;
+
+}
+
+.texto-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Starter .Advanced .Pro-Plan {
+    flex-direction: column;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 1px;
+}
